@@ -53,4 +53,16 @@ body{
 }
 .content h3 {
     text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    position: relative;
+}
+.content h3::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    background-color: #ffd763;
+    bottom: 4px;
+    border-radius: 100px;
 }
