@@ -56,6 +56,7 @@ body{
     margin-bottom: 15px;
     font-size: 20px;
     position: relative;
+    color: #fff;
 }
 .content h3::before{
     content: '';
@@ -65,4 +66,30 @@ body{
     background-color: #ffd763;
     bottom: 4px;
     border-radius: 100px;
+}
+.content p {
+    color: #b7b7b7;
+}
+#read_more{
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 15px;
+    background-color: #ffd763;
+    color: #313131;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+#read_more:hover{
+    background-color: #a0873c;
+    color: #ffd763;
+    transition: all 0.2s ease-in-out;
+}
+.card.active .content{
+    height: auto;
+}
+.card.active .content::before{
+    visibility: hidden;
 }
