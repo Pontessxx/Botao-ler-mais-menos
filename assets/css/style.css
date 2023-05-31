@@ -41,4 +41,16 @@ body{
 .content{
     height: 215px;
     overflow: hidden;
+    position: relative;
+}
+.content::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(transparent, #3f3f3f);
+}
+.content h3 {
+    text-align: center;
 }
