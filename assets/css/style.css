@@ -32,6 +32,13 @@ body{
     border-top: 20px solid #ffd763;
     border-right: 20px solid #ffd763;
 }
+.icon{
+    margin-bottom: 20px;
+}
 .icon img {
     width: 250px;
+}
+.content{
+    height: 215px;
+    overflow: hidden;
 }
